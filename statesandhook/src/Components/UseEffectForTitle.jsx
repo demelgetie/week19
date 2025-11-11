@@ -17,7 +17,7 @@ function UseEffectForTitle() {
 
   // useEffect with [count] as a dependency runs every time 'count' changes
   useEffect(() => {
-    document.title = `count: ${count}`; // Updates the browser tab title whenever 'count' changes
+    document.title = `Clicked: ${count}times`; // Updates the browser tab title whenever 'count' changes
   }, [count]); // Runs each time 'count' updates
 
   // The return statement defines the UI of the component
