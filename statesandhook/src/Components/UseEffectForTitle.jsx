@@ -2,7 +2,7 @@
 When the component is rendered for the first time (or when it is mounted),
 display an alert text that says “Component is mounted”, on the screen. */
 
-// Importing React hooks useEffect and useState from the 'react' library
+
 import { useEffect, useState } from "react";
 
 // Define a functional component named UseEffectForTitle

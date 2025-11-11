@@ -2,13 +2,12 @@
  */
 
 
-// Import the useState hook from React to manage component state
 import { useState } from "react";
 
 // Define a functional component named IncreaseDecreaseCount
 function IncreaseDecreaseCount() {
   // Declare a state variable 'count' with an initial value of 0
-  // 'setCout' (slightly misspelled; should ideally be 'setCount') is the function used to update the state
+  // 'setCout' is the function used to update the state
   const [count, setCout] = useState(0);
 
   // Define a function to increase the count by 1

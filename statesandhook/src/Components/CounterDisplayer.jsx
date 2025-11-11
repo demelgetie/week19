@@ -5,8 +5,6 @@ Create a function named "allClicksCounter()" in "MyCounter.js" that will update 
 "MyCounter.js" component is clicked.
 */
 
-
-// Import 'Component' from the React library to create a class-based component
 import { Component } from "react";
 
 // Define a class component named 'CounterDisplayer' that extends React's Component class

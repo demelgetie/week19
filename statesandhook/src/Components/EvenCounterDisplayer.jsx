@@ -4,8 +4,6 @@ button inside “MyCounter.js” is clicked.
  */
 
 
-
-// Import 'Component' from React to create a class-based component
 import { Component } from 'react'
 
 // Define a class component named 'EvenCounterDisplayer' that extends React's Component class
@@ -13,8 +11,6 @@ class EvenCounterDisplayer extends Component {
   
   // Every class component must have a render() method that returns JSX
   render() {
-
-    // The following commented-out code is an older version of the component
     // It would have displayed 'evenCount' directly from props if passed by the parent
     // return (
     //   <div>

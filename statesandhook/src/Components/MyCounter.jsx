@@ -1,7 +1,5 @@
 // Importing 'Component' from React to create a class-based component
 import { Component } from "react";
-
-// Importing two child components from local files
 import CounterDisplayer from "./CounterDisplayer.jsx";
 import EvenCounterDisplayer from "./EvenCounterDisplayer.jsx";
 
@@ -10,8 +8,7 @@ class MyCounter extends Component {
   // The constructor is used to initialize the component's state and bind methods
   constructor() {
     super(); // Calls the parent class (Component) constructor
-    // Initialize state with two properties: count and evenCount
-    this.state = { count: 0, evenCount: 0 };
+    this.state = { count: 0, evenCount: 0 }; // Initialize state with two properties: count and evenCount
   }
 
   // Define an arrow function that updates the count state
