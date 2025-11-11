@@ -1,3 +1,10 @@
+/*2. Create another class component called "EvenCounterDisplayer.js", on
+which the “MyCounter.js” component depends. This component keeps track of and displays ONLY the number of even click counts when the
+button inside “MyCounter.js” is clicked.
+ */
+
+
+
 import { Component } from 'react'
 
  class EvenCounterDisplayer extends Component {

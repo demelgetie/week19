@@ -1,3 +1,7 @@
+/* 3. Create a functional component called "IncreaseDecreaseCount.js''. There will be three buttons; a button to increase, a button to decrease, and a button to reset the click count values, and you will need to implement the useState() Hook to update the clicks.
+ */
+
+
 import { useState } from "react";
 
 function IncreaseDecreaseCount() {
