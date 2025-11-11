@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <MyCounter />
-      {/* <IncreaseDecreaseCount /> */}
-      {/* <UseEffectForTitle /> */}
+      <IncreaseDecreaseCount />
+      <UseEffectForTitle />
     </>
   )
 }

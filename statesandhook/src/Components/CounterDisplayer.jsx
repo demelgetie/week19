@@ -6,16 +6,22 @@ Create a function named "allClicksCounter()" in "MyCounter.js" that will update 
 */
 
 
+// Import 'Component' from the React library to create a class-based component
 import { Component } from "react";
 
+// Define a class component named 'CounterDisplayer' that extends React's Component class
 class CounterDisplayer extends Component {
+
+  // Every class component must have a render() method that returns JSX
   render() {
     return (
       <div>
+        {/* Display the total number of clicks received from the parent component as a prop */}
         <h3>All Clicks Counter: {this.props.allCount}</h3>
       </div>
     );
   }
 }
 
+// Export the component so it can be imported and used in other files
 export default CounterDisplayer;
